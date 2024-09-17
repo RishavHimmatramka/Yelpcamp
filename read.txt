@@ -1,0 +1,93 @@
+# Yelpcamp
+
+Welcome to Yelpcamp! 🎪
+
+Yelpcamp is a Node.js application that allows users to discover and create campgrounds, write reviews, and explore a community of camping enthusiasts. Whether you're looking for a new campsite or want to share your experiences, Yelpcamp provides a platform for all your camping needs.
+
+## Features
+
+- **User Authentication**: Sign up and log in to manage your campgrounds and reviews.
+- **Campground Management**: Create, edit, and delete campgrounds. Add details such as location, description, and images.
+- **Reviews**: Write and read reviews for campgrounds. Share your experiences and get insights from other campers.
+- **Search and Filter**: Find campgrounds based on location, ratings, and other criteria.
+- **Responsive Design**: Access Yelpcamp from any device with a user-friendly interface.
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/yelpcamp.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd yelpcamp
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Set up environment variables:**
+
+   Create a `.env` file in the root directory of the project and add the following variables:
+
+   ```bash
+   DATABASE_URL=your-database-url
+   SECRET=your-secret-key
+   ```
+
+   Replace `your-database-url` with your MongoDB connection string and `your-secret-key` with a secret key for session management.
+
+5. **Run the application:**
+
+   ```bash
+   npm start
+   ```
+
+   The application will be available at `http://localhost:3000`.
+
+## Usage
+
+- **Sign Up / Log In**: Access user authentication features.
+- **Create a Campground**: Navigate to the campground creation page to add a new campground.
+- **Edit or Delete a Campground**: Manage your campgrounds from your dashboard.
+- **Write a Review**: Go to a campground's page to write and submit a review.
+- **Search for Campgrounds**: Use the search functionality to find specific campgrounds.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+For any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
+
+Happy camping! 🌲🏕️
+
+---
+
+**Note:** This README assumes a basic understanding of Node.js and Git. Adjust the instructions according to your specific project setup and environment.
