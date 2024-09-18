@@ -54,7 +54,7 @@ const reviewRoutes = require("./routes/reviews");
 const sessionConfig = {
   name: "session",
   store,
-  secret,
+  // secret,
   resave: false,
   saveUninitialized: true,
   cookie: {
